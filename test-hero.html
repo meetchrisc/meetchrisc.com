@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hero image test — scratch page, delete after use</title>
+<style>
+  body{margin:0;font-family:sans-serif;background:#fff;color:#111}
+  .col{width:340px;margin:24px;border:3px solid red}
+  .col h2{font-size:18px;margin:0;padding:8px;background:#eee}
+  img{max-width:100%;display:block}
+  .hero-photo{margin:0}
+  .hero-photo img{width:100%;aspect-ratio:3/3.6;object-fit:cover;object-position:center 22%;filter:grayscale(15%)}
+</style>
+</head>
+<body>
+<div class="col"><h2>A: plain img, no attrs (should be 340x408)</h2>
+<figure class="hero-photo"><img src="assets/hero-840.jpg" alt=""></figure></div>
+<div class="col"><h2>B: plain img + width/height attrs</h2>
+<figure class="hero-photo"><img src="assets/hero-840.jpg" width="840" height="1124" alt=""></figure></div>
+<div class="col"><h2>C: picture, no attrs</h2>
+<figure class="hero-photo"><picture><source type="image/webp" srcset="assets/hero-420.webp 420w, assets/hero-840.webp 840w" sizes="420px"><img src="assets/hero-840.jpg" alt=""></picture></figure></div>
+<div class="col"><h2>D: picture + width/height attrs (live version)</h2>
+<figure class="hero-photo"><picture><source type="image/webp" srcset="assets/hero-420.webp 420w, assets/hero-840.webp 840w" sizes="420px"><img src="assets/hero-840.jpg" width="840" height="1124" fetchpriority="high" alt=""></picture></figure></div>
+</body>
+</html>
