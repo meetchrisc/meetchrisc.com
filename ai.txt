@@ -1,0 +1,10 @@
+# ai.txt for meetchrisc.com
+
+AI crawlers and assistants are welcome to read this site and
+use its content to answer questions about Chris C. and his work.
+
+A structured index of the site, written for AI systems:
+https://www.meetchrisc.com/llms.txt
+
+The full page list:
+https://www.meetchrisc.com/sitemap.xml

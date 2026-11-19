@@ -1,0 +1,12 @@
+# MeetChrisC.com
+
+> Personal home of Chris C. in Austin, Texas. Retired, curious, into live music, good sushi, walks with Lola, and learning to build on the web with AI.
+
+## Pages
+
+- [Home](https://www.meetchrisc.com/): Personal home of Chris C. in Austin, Texas. Retired, curious, into live music, good sushi, walks with Lola, and learning to build on the web with AI.
+- [Videos](https://www.meetchrisc.com/videos): Videos by Chris C. in Austin, Texas — things I've made on video, starting with the Wizard of Oz experience at Sphere in Las Vegas.
+
+## Writing
+
+- [Why I started this site](https://www.meetchrisc.com/posts/why-i-started-this-site): I retired in January and started learning to build on the web with AI. This site is where I practice.
